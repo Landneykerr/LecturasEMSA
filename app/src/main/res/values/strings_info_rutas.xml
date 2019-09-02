@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TituloRutas">Rutas</string>
+    <string name="TituloTotal">Total</string>
+    <string name="TituloLeidas">Leidas</string>
+    <string name="TituloPendientes">Pend.</string>
+    <string name="TituloFoto">Foto</string>
+    <string name="TituloImpresion">Impre.</string>
+</resources>

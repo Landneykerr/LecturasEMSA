@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ConfiguracionLblServidor">Servidor</string>
+    <string name="ConfiguracionLblPuerto">Puerto</string>
+    <string name="ConfiguracionLblModulo">Modulo</string>
+    <string name="ConfiguracionLblWebService">Web Service</string>
+    <string name="ConfiguracionLblImpresora">Impresora</string>
+    <string name="ConfiguracionLblVoucherVertical">Voucher Vertical</string>
+    <string name="ConfiguracionLblFotosOnLine">Fotos En Linea</string>
+    <string name="ConfiguracionLblFacturasOnLine">Trabajar sin Datos</string>
+    <string name="ConfiguracionLblBusqueda">Permitir Busqueda No Leidos</string>
+    <string name="ConfiguracionLblComprobante">Imprimir Tiquete</string>
+    <string name="ConfiguracionBtnGuardar">Guardar</string>
+    <string name="ConfiguracionLblIntentos">N° Intentos</string>
+    <string name="ConfiguracionLblFotos">N° Fotos</string>
+</resources>

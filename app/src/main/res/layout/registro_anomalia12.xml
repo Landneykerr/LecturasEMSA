@@ -1,0 +1,149 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="lecturas.sypelc.mobilelecturas.FormTomarLectura"
+    android:id="@+id/linear"
+    android:padding="13dp"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtLecturaSTK"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/txtlecturaStk"
+            android:gravity="bottom" />
+
+        <EditText
+            android:id="@+id/LecturaEditAnomalia12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMedidor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/txtMedidor"
+            android:gravity="bottom" />
+
+        <EditText
+            android:id="@+id/MedidorEditAnomalia12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMarca"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/txtMarca"
+            android:gravity="bottom" />
+
+        <EditText
+            android:id="@+id/MarcaEditAnomalia12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:maxLength="3"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtDigitos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/txtDigitos"
+            android:gravity="bottom" />
+
+        <EditText
+            android:id="@+id/DigitosEditAnomalia12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:maxLength="1"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTipo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/txtMedidor"/>
+
+        <Spinner
+            android:id="@+id/SpinnerTipoAnomalia12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BtonAceptarAnomalia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Aceptar"/>
+
+        <Button
+            android:id="@+id/BtonCancelarAnomalia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Cancelar"/>
+    </LinearLayout>
+
+</LinearLayout>
+
